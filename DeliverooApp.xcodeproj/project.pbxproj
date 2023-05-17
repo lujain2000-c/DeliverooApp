@@ -11,6 +11,16 @@
 		6A9ACEE82A139B7500071242 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEE72A139B7500071242 /* ContentView.swift */; };
 		6A9ACEEA2A139B7600071242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9ACEE92A139B7600071242 /* Assets.xcassets */; };
 		6A9ACEED2A139B7600071242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9ACEEC2A139B7600071242 /* Preview Assets.xcassets */; };
+		6A9ACEF42A13A5C800071242 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEF32A13A5C800071242 /* LocationView.swift */; };
+		6A9ACEF62A13EB6400071242 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEF52A13EB6400071242 /* StartScreenView.swift */; };
+		6A9ACEF82A140CEA00071242 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEF72A140CEA00071242 /* HomePageView.swift */; };
+		6A9ACEFA2A14303700071242 /* SignUpAndLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEF92A14303700071242 /* SignUpAndLogInView.swift */; };
+		6A9ACEFC2A1436AA00071242 /* SignUpEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEFB2A1436AA00071242 /* SignUpEmailView.swift */; };
+		6A9ACEFE2A14390700071242 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEFD2A14390700071242 /* PhoneNumberView.swift */; };
+		6A9ACF002A14397E00071242 /* VerifyPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACEFF2A14397E00071242 /* VerifyPhoneNumberView.swift */; };
+		6A9ACF022A143AB200071242 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACF012A143AB200071242 /* CreateAccountView.swift */; };
+		6A9ACF042A143CC500071242 /* AccountPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACF032A143CC500071242 /* AccountPageView.swift */; };
+		6A9ACF082A1440E400071242 /* PaymentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ACF072A1440E400071242 /* PaymentPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		6A9ACEE72A139B7500071242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A9ACEE92A139B7600071242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9ACEEC2A139B7600071242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A9ACEF32A13A5C800071242 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		6A9ACEF52A13EB6400071242 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		6A9ACEF72A140CEA00071242 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		6A9ACEF92A14303700071242 /* SignUpAndLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAndLogInView.swift; sourceTree = "<group>"; };
+		6A9ACEFB2A1436AA00071242 /* SignUpEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailView.swift; sourceTree = "<group>"; };
+		6A9ACEFD2A14390700071242 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		6A9ACEFF2A14397E00071242 /* VerifyPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberView.swift; sourceTree = "<group>"; };
+		6A9ACF012A143AB200071242 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		6A9ACF032A143CC500071242 /* AccountPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageView.swift; sourceTree = "<group>"; };
+		6A9ACF072A1440E400071242 /* PaymentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,16 @@
 				6A9ACEE72A139B7500071242 /* ContentView.swift */,
 				6A9ACEE92A139B7600071242 /* Assets.xcassets */,
 				6A9ACEEB2A139B7600071242 /* Preview Content */,
+				6A9ACEF32A13A5C800071242 /* LocationView.swift */,
+				6A9ACEF52A13EB6400071242 /* StartScreenView.swift */,
+				6A9ACEF72A140CEA00071242 /* HomePageView.swift */,
+				6A9ACEF92A14303700071242 /* SignUpAndLogInView.swift */,
+				6A9ACEFB2A1436AA00071242 /* SignUpEmailView.swift */,
+				6A9ACEFD2A14390700071242 /* PhoneNumberView.swift */,
+				6A9ACEFF2A14397E00071242 /* VerifyPhoneNumberView.swift */,
+				6A9ACF012A143AB200071242 /* CreateAccountView.swift */,
+				6A9ACF032A143CC500071242 /* AccountPageView.swift */,
+				6A9ACF072A1440E400071242 /* PaymentPageView.swift */,
 			);
 			path = DeliverooApp;
 			sourceTree = "<group>";
@@ -138,7 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9ACEE82A139B7500071242 /* ContentView.swift in Sources */,
+				6A9ACEF62A13EB6400071242 /* StartScreenView.swift in Sources */,
+				6A9ACEFA2A14303700071242 /* SignUpAndLogInView.swift in Sources */,
+				6A9ACEF42A13A5C800071242 /* LocationView.swift in Sources */,
+				6A9ACF042A143CC500071242 /* AccountPageView.swift in Sources */,
+				6A9ACF022A143AB200071242 /* CreateAccountView.swift in Sources */,
+				6A9ACF082A1440E400071242 /* PaymentPageView.swift in Sources */,
+				6A9ACEFC2A1436AA00071242 /* SignUpEmailView.swift in Sources */,
 				6A9ACEE62A139B7500071242 /* DeliverooAppApp.swift in Sources */,
+				6A9ACEFE2A14390700071242 /* PhoneNumberView.swift in Sources */,
+				6A9ACEF82A140CEA00071242 /* HomePageView.swift in Sources */,
+				6A9ACF002A14397E00071242 /* VerifyPhoneNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

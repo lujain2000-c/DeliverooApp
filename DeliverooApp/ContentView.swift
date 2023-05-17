@@ -9,14 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ZStack{
+                Color(red: 0.1, green: 0.8, blue: 0.7)
+                    .ignoresSafeArea()
+                VStack{
+                    HStack {
+                        
+                        Image(  "Logo")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .foregroundColor(.accentColor)
+                        Text("deliveroo")
+                            .font(.system(size: .maximum(24, 56), weight: .ultraLight, design: .serif))
+                            .foregroundColor(.white)
+                        
+                        
+                    }
+                    NavigationLink("Continue", destination: StartScreenView())
+                        
+                    
+                }
+                
+            }
         }
-        .padding()
     }
+   
 }
 
 struct ContentView_Previews: PreviewProvider {
