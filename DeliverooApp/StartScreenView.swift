@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StartScreenView: View {
     var body: some View {
-        NavigationView {
+       // NavigationView {
             ZStack{
                 
                 Color(red: 0.1, green: 0.8, blue: 0.7)
@@ -52,7 +52,7 @@ struct StartScreenView: View {
                 
                 
             }
-        }
+       // }
         }
 }
 

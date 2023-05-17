@@ -35,16 +35,22 @@ struct PaymentPageView: View {
             }
             
             Spacer()
-            Button("Confirm "){
-                
-            }
-            .padding(.horizontal, 100)
-            .padding(.vertical, 15)
-            .foregroundColor(.white)
-            .background(.black)
-            .cornerRadius(10)
+//            Button("Confirm "){
+//                
+//            }
+//            .padding(.horizontal, 100)
+//            .padding(.vertical, 15)
+//            .foregroundColor(.white)
+//            .background(.black)
+//            .cornerRadius(10)
             NavigationLink("Confirm", destination: HomePageView())
+                .padding(.horizontal, 100)
+                .padding(.vertical, 15)
+                .foregroundColor(.white)
+                .background(.black)
+                .cornerRadius(10)
         }
+       
     }
 }
 

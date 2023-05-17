@@ -10,7 +10,7 @@ import SwiftUI
 struct VerifyPhoneNumberView: View {
     
         var body: some View {
-            NavigationView {
+            //NavigationView {
             VStack{
                 ZStack(alignment: .leading){
                     Rectangle()
@@ -27,18 +27,22 @@ struct VerifyPhoneNumberView: View {
                     
                 }
                 Spacer()
-                Button("Verify "){
-                    
-                }
-                .padding(.horizontal, 100)
-                .padding(.vertical, 15)
-                .foregroundColor(.white)
-                .background(.black)
-                .cornerRadius(10)
+//                Button("Verify "){
+//
+//                }
+//                .padding(.horizontal, 100)
+//                .padding(.vertical, 15)
+//                .foregroundColor(.white)
+//                .background(.black)
+//                .cornerRadius(10)
                 
-                NavigationLink("Continue", destination: CreateAccountView())
+                NavigationLink("Verify", destination: CreateAccountView())  .padding(.horizontal, 100)
+                    .padding(.vertical, 15)
+                    .foregroundColor(.white)
+                    .background(.black)
+                    .cornerRadius(10)
             }
-        }
+        //}
     }
 }
 

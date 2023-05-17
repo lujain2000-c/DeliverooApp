@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SignUpEmailView: View {
     var body: some View {
-        NavigationView {
+      //  NavigationView {
             VStack{
                 ZStack(alignment: .leading){
                     Rectangle()
@@ -22,18 +22,23 @@ struct SignUpEmailView: View {
                     
                 }
                 Spacer()
-                Button("Continue "){
-                    
-                }
-                .padding(.horizontal, 100)
-                .padding(.vertical, 15)
-                .foregroundColor(.white)
-                .background(.black)
-                .cornerRadius(10)
+//                Button("Continue "){
+//
+//                }
+//                .padding(.horizontal, 100)
+//                .padding(.vertical, 15)
+//                .foregroundColor(.white)
+//                .background(.black)
+//                .cornerRadius(10)
                 NavigationLink("Continue", destination: PhoneNumberView())
+                    .padding(.horizontal, 100)
+                    .padding(.vertical, 15)
+                    .foregroundColor(.white)
+                    .background(.black)
+                    .cornerRadius(10)
             }
             
-        }
+       // }
     }
 }
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct CreateAccountView: View {
     
         var body: some View {
-            NavigationView {
+           // NavigationView {
             VStack{
                 List{
                     Text("Name")
@@ -19,19 +19,24 @@ struct CreateAccountView: View {
                         .foregroundColor(.gray)
                     
                 }
-                Button("Confirm"){
-                    
-                }
-                .padding(.horizontal, 100)
-                .padding(.vertical, 15)
-                .foregroundColor(.white)
-                .background(.black)
-                .cornerRadius(10)
+//                Button("Confirm"){
+//                    
+//                }
+//                .padding(.horizontal, 100)
+//                .padding(.vertical, 15)
+//                .foregroundColor(.white)
+//                .background(.black)
+//                .cornerRadius(10)
                 
                 NavigationLink("Confirm", destination: AccountPageView())
+                    .padding(.horizontal, 100)
+                    .padding(.vertical, 15)
+                    .foregroundColor(.white)
+                    .background(.black)
+                    .cornerRadius(10)
                 
             }
-        }
+      // }
         }
 }
 

@@ -30,12 +30,18 @@ struct HomePageView: View {
                     }
                     
                 }
-                Image(systemName: "person.circle.fill")
-                    .resizable()
-                    .frame(width: 24,height: 24)
-                    .foregroundColor(.green)
-                
-                
+                ZStack{Image(systemName: "person.circle.fill")
+                        .resizable()
+                        .frame(width: 24,height: 24)
+                        .foregroundColor(.green)
+                    
+                    NavigationLink("person.circle.fill", destination: SignUpAndLogInView())
+                        .font(.system(size: 3))
+                    
+                }
+//                    .resizable()
+//                  //   .frame(width: 24,height: 24)
+//                  //   .foregroundColor(.green)
             }.padding(.top, 0)
             HStack{
                 ZStack{

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SignUpAndLogInView: View {
     var body: some View {
-        NavigationView {
+      //  NavigationView {
             ZStack{
                 
                 Color(red: 0.1, green: 0.8, blue: 0.7)
@@ -33,12 +33,14 @@ struct SignUpAndLogInView: View {
                             
                             List{
                                 HStack{
-                                    Text("Continue with Apple")
+                                    NavigationLink("Continue with Apple", destination: SignUpAndLogInView())
+//                                    Text("Continue with Apple")
                                     
                                     Image(systemName: "applelogo")
                                         .resizable()
                                         .frame(width: 16,height: 16)
                                         .foregroundColor(.black)
+                                    
                                 }
                                 HStack{
 //                                    Text("Continue with Email")
@@ -53,18 +55,15 @@ struct SignUpAndLogInView: View {
                             }
                             
                             
-//                            Button("Skip"){
-//                                
-//                            }
-                            
                             NavigationLink("skip", destination: HomePageView())
+                                .padding(.bottom, 30)
                         }
                     }
                 }
             }
             
-        }
-            
+     //   }
+      
     }
 }
 

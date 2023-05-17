@@ -11,7 +11,7 @@ import SwiftUI
 struct DeliverooAppApp: App {
     var body: some Scene {
         WindowGroup {
-            AccountPageView()
+            ContentView()
         }
     }
 }

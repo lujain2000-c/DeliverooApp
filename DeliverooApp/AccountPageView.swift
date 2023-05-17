@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AccountPageView: View {
     var body: some View {
-        NavigationView {
+       // NavigationView {
             List{
                 
                 HStack{
@@ -68,7 +68,7 @@ struct AccountPageView: View {
                     NavigationLink("Payment methods", destination: PaymentPageView())
                 }
             }
-        }
+       // }
     }
 }
 
